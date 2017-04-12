@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8906D21A1E7357B700A2364A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8906D2191E7357B700A2364A /* main.cpp */; };
+		8906D2311E73585300A2364A /* AttractionMapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8906D2291E73585300A2364A /* AttractionMapper.cpp */; };
+		8906D2321E73585300A2364A /* MapLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8906D22B1E73585300A2364A /* MapLoader.cpp */; };
+		8906D2341E73585300A2364A /* Navigator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8906D22D1E73585300A2364A /* Navigator.cpp */; };
+		8906D2351E73585300A2364A /* SegmentMapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8906D22F1E73585300A2364A /* SegmentMapper.cpp */; };
+		89FCFE861E79CE2B0071E255 /* provided.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89FCFE851E79CE2B0071E255 /* provided.cpp */; };
+		89FCFE891E7A02140071E255 /* support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89FCFE871E7A02140071E255 /* support.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,17 @@
 /* Begin PBXFileReference section */
 		8906D2161E7357B700A2364A /* BruinNav */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BruinNav; sourceTree = BUILT_PRODUCTS_DIR; };
 		8906D2191E7357B700A2364A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8906D2291E73585300A2364A /* AttractionMapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AttractionMapper.cpp; sourceTree = "<group>"; };
+		8906D22A1E73585300A2364A /* mapdata.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mapdata.txt; sourceTree = "<group>"; };
+		8906D22B1E73585300A2364A /* MapLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapLoader.cpp; sourceTree = "<group>"; };
+		8906D22D1E73585300A2364A /* Navigator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Navigator.cpp; sourceTree = "<group>"; };
+		8906D22E1E73585300A2364A /* provided.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = provided.h; sourceTree = "<group>"; };
+		8906D22F1E73585300A2364A /* SegmentMapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SegmentMapper.cpp; sourceTree = "<group>"; };
+		8906D2301E73585300A2364A /* validlocs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = validlocs.txt; sourceTree = "<group>"; };
+		8906D2371E73593500A2364A /* MyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMap.h; sourceTree = "<group>"; };
+		89FCFE851E79CE2B0071E255 /* provided.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = provided.cpp; sourceTree = "<group>"; };
+		89FCFE871E7A02140071E255 /* support.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = support.cpp; sourceTree = "<group>"; };
+		89FCFE8A1E7A02300071E255 /* support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = support.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +74,17 @@
 		8906D2181E7357B700A2364A /* BruinNav */ = {
 			isa = PBXGroup;
 			children = (
+				8906D2291E73585300A2364A /* AttractionMapper.cpp */,
+				8906D22A1E73585300A2364A /* mapdata.txt */,
+				8906D22B1E73585300A2364A /* MapLoader.cpp */,
+				8906D2371E73593500A2364A /* MyMap.h */,
+				8906D22D1E73585300A2364A /* Navigator.cpp */,
+				89FCFE871E7A02140071E255 /* support.cpp */,
+				89FCFE8A1E7A02300071E255 /* support.h */,
+				8906D22E1E73585300A2364A /* provided.h */,
+				89FCFE851E79CE2B0071E255 /* provided.cpp */,
+				8906D22F1E73585300A2364A /* SegmentMapper.cpp */,
+				8906D2301E73585300A2364A /* validlocs.txt */,
 				8906D2191E7357B700A2364A /* main.cpp */,
 			);
 			path = BruinNav;
@@ -118,7 +146,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8906D2341E73585300A2364A /* Navigator.cpp in Sources */,
 				8906D21A1E7357B700A2364A /* main.cpp in Sources */,
+				8906D2321E73585300A2364A /* MapLoader.cpp in Sources */,
+				89FCFE891E7A02140071E255 /* support.cpp in Sources */,
+				89FCFE861E79CE2B0071E255 /* provided.cpp in Sources */,
+				8906D2351E73585300A2364A /* SegmentMapper.cpp in Sources */,
+				8906D2311E73585300A2364A /* AttractionMapper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +273,7 @@
 				8906D21F1E7357B700A2364A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
