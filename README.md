@@ -1,5 +1,5 @@
 # BruinNav
-Uses A* algorithm to find an optimum route between two attractions listed in the validlocs.txt file.
+Routing algorithm to find optimal street routes between attractions in Los Angeles area.
 
 example run:
 ./BruinNav mapdata.txt "Harvard-Westlake Middle School" "GreyStone Mansion"
